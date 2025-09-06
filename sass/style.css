@@ -135,10 +135,10 @@ header {
 }
 
 .dark {
-  background-color: black;
+  background-color: #1c1e53;
 }
 .dark * {
-  color: lime !important;
+  color: yellow !important;
 }
 
 @media (max-width: 830px) {
@@ -188,6 +188,31 @@ footer {
   height: 95px;
   background: #fcd980;
   margin-bottom: 92px;
+  display: flex;
+  gap: 29px;
+}
+.footer-left__box label {
+  display: block;
+  margin-bottom: 2px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 18px;
+  padding-left: 37px;
+  color: #282938;
+}
+.footer-left__box input {
+  width: 181px;
+  height: 28px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-left: 37px;
+  border: none;
+  background-color: #fcd980;
+  color: #282938;
 }
 .footer-right h2 {
   font-family: Poppins;

@@ -27,6 +27,31 @@ footer {
       height: 95px;
       background: $bg2-color;
       margin-bottom: 92px;
+      display: flex;
+      gap: 29px;
+      label {
+        display: block;
+        margin-bottom: 2px;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        padding-top: 18px;
+        padding-left: 37px;
+        color: $secondary-color;
+      }
+      input {
+        width: 181px;
+        height: 28px;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        margin-left: 37px;
+        border: none;
+        background-color: $bg2-color;
+        color: $secondary-color;
+      }
     }
   }
   &-right {
