@@ -152,10 +152,10 @@ header {
 
 // DARK MODE
 .dark {
-  background-color: black;
+  background-color: $bg-color;
 
   * {
-    color: lime !important;
+    color: yellow !important;
   }
 }
 
