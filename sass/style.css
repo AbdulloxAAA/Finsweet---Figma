@@ -233,7 +233,62 @@ footer {
   margin: 0 auto;
 }
 
-h1 {
-  color: red;
-  background-color: green;
+.Home {
+  background-color: #1c1e53;
+}
+
+.home_ {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.home_-left h1 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.home_-left p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  margin-bottom: 48px;
+}
+
+.home_-left button {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #1b1c2b;
+  background-color: #fcd980;
+  padding: 16px 56px;
+  border: none;
+  border-radius: 41px;
+}
+
+.home_-left button:hover {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #1b1c2b;
+  background-color: #fde4a6;
+  padding: 16px 56px;
+  border: none;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+
+.home_-left label {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
